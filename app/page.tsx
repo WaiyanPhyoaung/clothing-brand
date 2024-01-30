@@ -1,14 +1,11 @@
-import Image from "next/image";
-import banner from "@/public/banner.avif";
+import Banner from "@/components/home/banner";
+import Trending from "@/components/home/trending";
 
 export default function Home() {
   return (
     <div className="h-[400vh]">
-      <Image
-        src={banner}
-        alt="banner image"
-        className="w-full h-screen aspect-video"
-      />
+      <Banner />
+      <Trending />
     </div>
   );
 }
