@@ -1,17 +1,16 @@
 import React, { useState } from "react";
 import Link from "next/link";
-import { AnimatePresence, motion } from "framer-motion";
 import { MenuDetailsType, MenuType } from "@/data/menu";
 import SubMenu from "./subMenu";
 
 const Menu = ({ menuData }: { menuData: MenuType[] }) => {
   const [isOpenMenuContent, setIsOpenMenuContent] = useState(false);
   const [activeMenuDetails, setActiveMenuDetails] = useState<MenuDetailsType[]>(
-    []
+    [],
   );
   return (
     <div>
-      <ul className=" flex justify-center items-center ">
+      <ul className="flex items-center justify-center ">
         {menuData.map((menu) => (
           <li
             key={menu.id}
@@ -24,7 +23,7 @@ const Menu = ({ menuData }: { menuData: MenuType[] }) => {
           >
             <Link
               href={menu.link}
-              className="inline-block py-4 px-4 border-b-2 border-transparent hover:border-black"
+              className="inline-block border-b-2 border-transparent px-4 py-4 hover:border-black"
             >
               {menu.name}
             </Link>

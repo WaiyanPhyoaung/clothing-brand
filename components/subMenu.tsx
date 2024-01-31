@@ -42,20 +42,20 @@ const SubMenu = ({ shouldOpen, setIsOpen, activeMenuDetails }: SubMenuType) => {
       <AnimatePresence mode="wait">
         {shouldOpen && (
           <motion.div
-            initial="hidden"
+            initial="  hidden"
             animate="visible"
             variants={container}
             exit="exit"
             onMouseEnter={() => setIsOpen(true)}
             onMouseLeave={() => setIsOpen(false)}
-            className={` fixed left-0 w-full bg-white origin-top
-     
+            className={` fixed left-0 w-full origin-top bg-white
+
     `}
           >
             <motion.div
               key={activeMenuDetails[0]?.name}
               variants={child}
-              className={`container origin-top flex justify-center items-start gap-16 duration-300 `}
+              className={`container flex origin-top items-start justify-center gap-16 duration-300 `}
             >
               {activeMenuDetails.map((menuDetails) => (
                 <div className="flex-col py-8" key={menuDetails.name}>
@@ -83,7 +83,7 @@ const SubMenu = ({ shouldOpen, setIsOpen, activeMenuDetails }: SubMenuType) => {
       <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: shouldOpen ? 1 : 0 }}
-        className={`fixed left-0 w-full h-full bg-black/20 backdrop-blur-[2px] -z-10 
+        className={`fixed left-0 -z-10 h-full w-full bg-black/20 backdrop-blur-[2px]
 `}
       />
     </>

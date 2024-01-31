@@ -8,9 +8,17 @@ const useScrollHide = (threshold = 20) => {
 
     const handleScroll = () => {
       const currentScrollY = window.scrollY;
-      setIsVisible(
-        currentScrollY <= lastScrollY + threshold || currentScrollY <= threshold
-      );
+
+      if (
+        currentScrollY > lastScrollY &&
+        currentScrollY - lastScrollY > threshold
+      ) {
+        // Scrolling down more than the threshold
+        setIsVisible(false);
+      } else if (lastScrollY - currentScrollY > threshold) {
+        // Scrolling up more than the threshold
+        setIsVisible(true);
+      }
 
       lastScrollY = currentScrollY;
     };
