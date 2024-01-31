@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 
-const useScrollHide = (threshold = 20) => {
+const useScrollHide = ({ threshold = 20, topThreshold = 50 }) => {
   const [isVisible, setIsVisible] = useState(true);
 
   useEffect(() => {
@@ -9,7 +9,10 @@ const useScrollHide = (threshold = 20) => {
     const handleScroll = () => {
       const currentScrollY = window.scrollY;
 
-      if (
+      if (currentScrollY <= topThreshold) {
+        // Check if the scroll is at the top of the page
+        setIsVisible(true);
+      } else if (
         currentScrollY > lastScrollY &&
         currentScrollY - lastScrollY > threshold
       ) {

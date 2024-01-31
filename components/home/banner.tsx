@@ -6,7 +6,8 @@ function Banner() {
     <Image
       src={banner}
       alt="banner image"
-      className="w-full h-auto aspect-video max-h-[80vh]"
+      className="aspect-video h-auto max-h-[80vh] w-full"
+      priority
     />
   );
 }

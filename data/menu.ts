@@ -14,7 +14,7 @@ export type MenuType = {
 export const mockMenu: MenuType[] = [
   {
     id: "1",
-    name: "new & featured",
+    name: "New",
     link: "#",
     menuDetails: [
       {
@@ -26,81 +26,81 @@ export const mockMenu: MenuType[] = [
             link: "#",
           },
           {
-            name: "air force 1",
+            name: "air force 2",
             link: "#",
           },
           {
-            name: "air force 1",
+            name: "air force 3",
             link: "#",
           },
           {
-            name: "air force 1",
-            link: "#",
-          },
-        ],
-      },
-      {
-        name: "features",
-        link: "#",
-        children: [
-          {
-            name: "air force 1",
-            link: "#",
-          },
-          {
-            name: "air force 1",
-            link: "#",
-          },
-          {
-            name: "air force 1",
-            link: "#",
-          },
-          {
-            name: "air force 1",
+            name: "air force 4",
             link: "#",
           },
         ],
       },
       {
-        name: "features",
+        name: "trending",
         link: "#",
         children: [
           {
-            name: "air force 1",
+            name: "polo shirts",
             link: "#",
           },
           {
-            name: "air force 1",
+            name: "polo shirts1",
             link: "#",
           },
           {
-            name: "air force 1",
+            name: "polo shirts2",
             link: "#",
           },
           {
-            name: "air force 1",
+            name: "polo shirts3",
             link: "#",
           },
         ],
       },
       {
-        name: "features",
+        name: "Latest",
         link: "#",
         children: [
           {
-            name: "air force 1",
+            name: "latest 1",
             link: "#",
           },
           {
-            name: "air force 1",
+            name: "latest 2",
             link: "#",
           },
           {
-            name: "air force 1",
+            name: "letest 3",
             link: "#",
           },
           {
-            name: "air force 1",
+            name: "latest 4",
+            link: "#",
+          },
+        ],
+      },
+      {
+        name: "Popular",
+        link: "#",
+        children: [
+          {
+            name: "popular 1",
+            link: "#",
+          },
+          {
+            name: "popular 2",
+            link: "#",
+          },
+          {
+            name: "popular 3",
+            link: "#",
+          },
+          {
+            name: "popular 4",
             link: "#",
           },
         ],
@@ -109,7 +109,7 @@ export const mockMenu: MenuType[] = [
   },
   {
     id: "2",
-    name: "new & featured",
+    name: "Latest",
     link: "#",
     menuDetails: [
       {
@@ -117,19 +117,19 @@ export const mockMenu: MenuType[] = [
         link: "#",
         children: [
           {
-            name: "air force 1",
+            name: "second 1",
             link: "#",
           },
           {
-            name: "jorden 2",
+            name: "second 2",
             link: "#",
           },
           {
-            name: "simble 2",
+            name: "second 3",
             link: "#",
           },
           {
-            name: "snokeresf ",
+            name: "second 4",
             link: "#",
           },
         ],
@@ -143,39 +143,39 @@ export const mockMenu: MenuType[] = [
             link: "#",
           },
           {
-            name: "air force 1",
+            name: "jordan 1",
             link: "#",
           },
           {
-            name: "air force 1",
+            name: "jordan 2",
             link: "#",
           },
           {
-            name: "air force 1",
+            name: "jordan 3",
             link: "#",
           },
           {
-            name: "air force 1",
+            name: "jordane 4",
             link: "#",
           },
           {
-            name: "air force 1",
+            name: "jordan 5",
             link: "#",
           },
           {
-            name: "air force 1",
+            name: "jordan 6",
             link: "#",
           },
           {
-            name: "air force 1",
+            name: "jordan 7",
             link: "#",
           },
           {
-            name: "air force 1",
+            name: "jordan 8",
             link: "#",
           },
           {
-            name: "air force 1",
+            name: "jordan 9",
             link: "#",
           },
         ],
@@ -199,7 +199,7 @@ export const mockMenu: MenuType[] = [
         ],
       },
       {
-        name: "gewin aiseuif",
+        name: "gewin aElsif",
         link: "#",
         children: [
           {
@@ -215,83 +215,83 @@ export const mockMenu: MenuType[] = [
             link: "#",
           },
           {
-            name: "air force 1",
+            name: "socia 1",
             link: "#",
           },
           {
-            name: "sdnn brgs esf3333 sefsefefsf",
+            name: "sdnn regfia",
             link: "#",
           },
           {
-            name: "1",
+            name: "aee df 1",
             link: "#",
           },
           {
-            name: "air force 1",
+            name: "airse33  1",
             link: "#",
           },
           {
-            name: "sdnn brgs esf3333 sefsefefsf",
+            name: "sdnn hla333 sefsefefsf",
             link: "#",
           },
           {
-            name: "1",
+            name: "1ee ssds",
             link: "#",
           },
           {
-            name: "air force 1",
+            name: "aiwr rr 1",
             link: "#",
           },
         ],
       },
       {
-        name: "blocker",
+        name: "Scripts",
         link: "#",
         children: [
           {
-            name: "sodicid 3",
+            name: "asdf 3",
             link: "#",
           },
           {
-            name: "air force 1",
+            name: "tyhasfs 1",
             link: "#",
           },
           {
-            name: "air force 1",
+            name: "pollyy 1",
             link: "#",
           },
           {
-            name: "air force 1",
+            name: "asseewwq 1",
             link: "#",
           },
           {
-            name: "air force 1",
+            name: "qbqbqb 1",
             link: "#",
           },
           {
-            name: "air force 1",
+            name: "berbew 1",
             link: "#",
           },
           {
-            name: "air force 1",
+            name: "aytatt 1",
             link: "#",
           },
           {
-            name: "air force 1",
+            name: "kjargr 1",
             link: "#",
           },
           {
-            name: "air force 1",
+            name: "uukdgdr 1",
             link: "#",
           },
           {
-            name: "air force 1",
+            name: "eenenen 1",
             link: "#",
           },
         ],
       },
       {
-        name: "moncisk kkhhsoefe ",
+        name: "moncisk kuueooefe ",
         link: "#",
         children: [
           {
@@ -299,11 +299,11 @@ export const mockMenu: MenuType[] = [
             link: "#",
           },
           {
-            name: "sefe fsefwf",
+            name: "sefe rerer",
             link: "#",
           },
           {
-            name: "sefefesf",
+            name: "yyyyyuuu",
             link: "#",
           },
         ],
@@ -313,43 +313,43 @@ export const mockMenu: MenuType[] = [
         link: "#",
         children: [
           {
-            name: "saef3333 sfsef",
+            name: "ollult sfsef",
             link: "#",
           },
           {
-            name: "sdnn brgs esf3333 sefsefefsf",
+            name: "sdnn argsg",
             link: "#",
           },
           {
-            name: "1",
+            name: "prlrlrrlr",
             link: "#",
           },
           {
-            name: "air force 1",
+            name: "jaje4ge",
             link: "#",
           },
           {
-            name: "sdnn brgs esf3333 sefsefefsf",
+            name: "sdemm ee4",
             link: "#",
           },
           {
-            name: "1",
+            name: "1w44 ged",
             link: "#",
           },
           {
-            name: "air force 1",
+            name: "we4jj weg",
             link: "#",
           },
           {
-            name: "sdnn brgs esf3333 sefsefefsf",
+            name: "sdnwm ret",
             link: "#",
           },
           {
-            name: "1",
+            name: "1tyryee",
             link: "#",
           },
           {
-            name: "air force 1",
+            name: "eh5ebhw",
             link: "#",
           },
         ],
@@ -358,71 +358,71 @@ export const mockMenu: MenuType[] = [
   },
   {
     id: "3",
-    name: "new & featured",
+    name: "Popular",
     link: "#",
     menuDetails: [
       {
-        name: "features",
+        name: "really",
         link: "#",
         children: [
           {
-            name: "air force 1",
+            name: "Horans 1",
             link: "#",
           },
           {
-            name: "air force 1",
+            name: "Horans 2",
             link: "#",
           },
           {
-            name: "air force 1",
+            name: "Horans 3",
             link: "#",
           },
           {
-            name: "air force 1",
+            name: "Horans 4",
             link: "#",
           },
         ],
       },
       {
-        name: "features",
+        name: "GOAT",
         link: "#",
         children: [
           {
-            name: "air force 1",
+            name: "goat 1",
             link: "#",
           },
           {
-            name: "air force 1",
+            name: "goat 2",
             link: "#",
           },
           {
-            name: "air force 1",
+            name: "goat 3",
             link: "#",
           },
           {
-            name: "air force 1",
+            name: "goat 4",
             link: "#",
           },
         ],
       },
       {
-        name: "features",
+        name: "Affordable",
         link: "#",
         children: [
           {
-            name: "air force 1",
+            name: "affordable 1",
             link: "#",
           },
           {
-            name: "air force 1",
+            name: "affordable 2",
             link: "#",
           },
           {
-            name: "air force 1",
+            name: "affordable 3",
             link: "#",
           },
           {
-            name: "air force 1",
+            name: "affordable 4",
             link: "#",
           },
         ],
@@ -431,73 +431,65 @@ export const mockMenu: MenuType[] = [
   },
   {
     id: "4",
-    name: "new & featured",
+    name: "Best Prices",
     link: "#",
     menuDetails: [
       {
-        name: "Shop All new features",
+        name: "Shop All best prices",
         link: "#",
         children: [
           {
-            name: "air force 1",
+            name: "best 1",
             link: "#",
           },
           {
-            name: "jorden 2",
+            name: "best 2",
             link: "#",
           },
           {
-            name: "simble 2",
+            name: "best 3",
             link: "#",
           },
           {
-            name: "snokeresf ",
+            name: "best 4",
             link: "#",
           },
         ],
       },
       {
-        name: "blocker",
+        name: "221b",
         link: "#",
         children: [
           {
-            name: "sodicid 3",
+            name: "baker st",
             link: "#",
           },
           {
-            name: "air force 1",
+            name: "baker 1",
             link: "#",
           },
           {
-            name: "air force 1",
+            name: "baker 2",
             link: "#",
           },
           {
-            name: "air force 1",
+            name: "baker 3",
             link: "#",
           },
           {
-            name: "air force 1",
+            name: "baker 4",
             link: "#",
           },
           {
-            name: "air force 1",
+            name: "baker 5",
             link: "#",
           },
           {
-            name: "air force 1",
+            name: "baker 6",
             link: "#",
           },
           {
-            name: "air force 1",
-            link: "#",
-          },
-          {
-            name: "air force 1",
-            link: "#",
-          },
-          {
-            name: "air force 1",
+            name: "baker 7",
             link: "#",
           },
         ],
@@ -525,43 +517,43 @@ export const mockMenu: MenuType[] = [
         link: "#",
         children: [
           {
-            name: "saef3333 sfsef",
+            name: "hhaesg sfsef",
             link: "#",
           },
           {
-            name: "sdnn brgs esf3333 sefsefefsf",
+            name: "sdnn brgs g",
             link: "#",
           },
           {
-            name: "1",
+            name: "tyysgsg",
             link: "#",
           },
           {
-            name: "air force 1",
+            name: "jajeee ",
             link: "#",
           },
           {
-            name: "sdnn brgs esf3333 sefsefefsf",
+            name: "molise",
             link: "#",
           },
           {
-            name: "1",
+            name: "lkl1",
             link: "#",
           },
           {
-            name: "air force 1",
+            name: "youtuhesg",
             link: "#",
           },
           {
-            name: "sdnn brgs esf3333 sefsefefsf",
+            name: "bositoon ",
             link: "#",
           },
           {
-            name: "1",
+            name: "tjkaoew",
             link: "#",
           },
           {
-            name: "air force 1",
+            name: "kkaopke",
             link: "#",
           },
         ],

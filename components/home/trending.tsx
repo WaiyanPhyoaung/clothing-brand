@@ -11,14 +11,18 @@ const trendings = [
 function Trending() {
   return (
     <section className="container py-16">
-      <h1 className="mb-8 text-4xl text-center">Trending</h1>
-      <div className="grid grid-cols-3 gap-4 justify-center items-center">
+      <h1 className="text-primary mb-8 text-center text-4xl">Trending</h1>
+      <p className="text-secondary-foreground mb-8 text-center text-xl">
+        Experience sustainable fashion that’s both stylish and socially
+        responsible with our latest eco-friendly collection
+      </p>
+      <div className="grid grid-cols-3 items-center justify-center gap-4">
         {trendings.map((trend, index) => (
           <Image
             key={index}
             src={trend.src}
             alt={trend.alt}
-            className="w-full h-auto "
+            className="h-auto w-full "
           />
         ))}
       </div>

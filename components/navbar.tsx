@@ -8,7 +8,7 @@ import { mockMenu } from "@/data/menu";
 import Menu from "./menu";
 
 export default function Navbar() {
-  const { isVisible } = useScrollHide(20);
+  const { isVisible } = useScrollHide({ threshold: 20, topThreshold: 50 });
 
   return (
     <header
