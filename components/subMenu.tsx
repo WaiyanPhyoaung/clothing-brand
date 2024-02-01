@@ -46,7 +46,7 @@ const SubMenu = ({ shouldOpen, setIsOpen, activeMenuDetails }: SubMenuType) => {
             animate={{
               backgroundColor: "rgba(0,0,0,0.3)",
               backdropFilter: "blur(2px)",
-              transition: { duration: 5 },
+              transition: { duration: 2 },
             }}
             exit={{ display: "none", transition: { duration: 0.1 } }}
             className={`fixed left-0 -z-10 h-full w-full 
