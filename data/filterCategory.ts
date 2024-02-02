@@ -20,6 +20,13 @@ enum Colors {
   brown,
   red,
 }
+
+enum SortBy {
+  asc = "asc",
+  des = "des",
+  newest = "newest",
+  bestSeller = "bestSeller",
+}
 export type Option = {
   label: string;
   value: any;
@@ -62,3 +69,13 @@ export const filterCategories: FilterCategory[] = [
     ],
   },
 ];
+
+export const sortByList = {
+  name: "sort by",
+  options: [
+    { label: "Price Low To High", value: SortBy.asc },
+    { label: "Price High To Low", value: SortBy.des },
+    { label: "Newest", value: SortBy.newest },
+    { label: "Best Seller", value: SortBy.bestSeller },
+  ],
+};

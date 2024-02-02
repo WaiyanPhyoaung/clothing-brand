@@ -31,7 +31,7 @@ const useScrollHide = ({ threshold = 20, topThreshold = 50 }) => {
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
-  }, [threshold]);
+  }, [threshold, topThreshold]);
 
   return { isVisible, setIsVisible };
 };

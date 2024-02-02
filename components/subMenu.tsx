@@ -92,12 +92,6 @@ const SubMenu = ({ shouldOpen, setIsOpen, activeMenuDetails }: SubMenuType) => {
           </motion.div>
         )}
       </AnimatePresence>
-      {/* <motion.div
-        initial={{ opacity: 0 }}
-        animate={{ opacity: shouldOpen ? 1 : -1 }}
-        className={`fixed left-0 -z-10 h-full w-full bg-black/20 backdrop-blur-[2px]
-`}
-      /> */}
     </>
   );
 };

@@ -19,7 +19,7 @@ function FilterItem({ category }: FilterItemProps) {
   const [isOpenContent, setIsOpenContent] = useState(false);
   return (
     <Popover open={isOpenContent} onOpenChange={setIsOpenContent}>
-      <PopoverTrigger>
+      <PopoverTrigger asChild>
         <Button
           variant={isOpenContent ? "default" : "outline"}
           className="flex justify-center items-center gap-2 px-2 py-2 border"
@@ -33,8 +33,11 @@ function FilterItem({ category }: FilterItemProps) {
           />
         </Button>
       </PopoverTrigger>
-      <PopoverContent align="start" className="w-auto p-0 min-w-[220px]">
-        <NormalFilterLists options={category.options} />
+      <PopoverContent align="start" className="w-auto p-0 min-w-[180px]">
+        <NormalFilterLists
+          options={category.options}
+          closeContent={() => setIsOpenContent(false)}
+        />
       </PopoverContent>
     </Popover>
   );

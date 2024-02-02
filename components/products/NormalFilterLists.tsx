@@ -5,7 +5,12 @@ import { Checkbox } from "@/components/ui/checkbox";
 import { Button } from "@/components/ui/button";
 import { Option } from "@/data/filterCategory";
 
-function NormalFilterLists({ options }: { options: Option[] }) {
+type NormalFilterListsProps = {
+  options: Option[];
+  closeContent: () => void;
+};
+
+function NormalFilterLists({ options, closeContent }: NormalFilterListsProps) {
   return (
     <div className="p-4 flex flex-col">
       <div className="flex justify-between">
@@ -20,7 +25,8 @@ function NormalFilterLists({ options }: { options: Option[] }) {
         <Button
           variant="default"
           size="sm"
-          className=" h-6 px-1 py-1 rounded-full"
+          className="h-6 px-1 py-1 rounded-full"
+          onClick={closeContent}
         >
           <X className="h-4 w-4 " />
         </Button>
