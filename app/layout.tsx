@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { IBM_Plex_Sans, Noto_Sans_Myanmar } from "next/font/google";
 import "./globals.css";
-import Navbar from "@/components/navbar";
+import Navbar from "@/components/navbar/navbar";
 
 const ibm = IBM_Plex_Sans({
   subsets: ["latin"],

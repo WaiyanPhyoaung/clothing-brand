@@ -2,6 +2,7 @@ import React from "react";
 import Link from "next/link";
 import { AnimatePresence, motion } from "framer-motion";
 import { MenuDetailsType } from "@/data/menu";
+import paths from "@/app/paths";
 
 const container = {
   hidden: { scaleY: 0 },
@@ -32,11 +33,17 @@ const child = {
 
 type SubMenuType = {
   shouldOpen: boolean;
-  setIsOpen: (arg: boolean) => void;
+  setIsOpen: (args: boolean) => void;
   activeMenuDetails: MenuDetailsType[];
+  navigate: (args: string) => void;
 };
 
-const SubMenu = ({ shouldOpen, setIsOpen, activeMenuDetails }: SubMenuType) => {
+const SubMenu = ({
+  shouldOpen,
+  setIsOpen,
+  activeMenuDetails,
+  navigate,
+}: SubMenuType) => {
   return (
     <>
       <AnimatePresence mode="wait">
@@ -70,16 +77,23 @@ const SubMenu = ({ shouldOpen, setIsOpen, activeMenuDetails }: SubMenuType) => {
               >
                 {activeMenuDetails.map((menuDetails) => (
                   <div className="flex-col py-8" key={menuDetails.name}>
-                    <Link className=" " href={menuDetails.link}>
+                    {/* dropdown title link */}
+                    <Link
+                      className=""
+                      href={paths.category(menuDetails.link)}
+                      onClick={() => navigate(paths.category(menuDetails.link))}
+                    >
                       {menuDetails.name}
                     </Link>
                     <ul className="mt-4 flex flex-col">
                       {menuDetails.children &&
                         menuDetails.children.map((child) => (
+                          // dropdown sub links
                           <Link
                             className="py-1 text-gray-700 hover:text-black"
                             key={child.name}
-                            href={child.link}
+                            href={paths.category(child.link)}
+                            onClick={() => navigate(paths.category(child.link))}
                           >
                             {child.name}
                           </Link>

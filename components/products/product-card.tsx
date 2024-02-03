@@ -1,9 +1,11 @@
 import Image from "next/image";
 import product1 from "@/public/products/product1.avif";
+import Link from "next/link";
+import paths from "@/app/paths";
 
 function ProductCard() {
   return (
-    <div>
+    <Link href={paths.productDetails("1")}>
       <Image
         src={product1}
         alt="product"
@@ -18,7 +20,7 @@ function ProductCard() {
         <span>100000 MMK</span>
         <span className="pl-4 text-sm">100000 MMK</span>
       </div>
-    </div>
+    </Link>
   );
 }
 export default ProductCard;

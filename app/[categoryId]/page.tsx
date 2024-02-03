@@ -2,10 +2,14 @@ import BreadCrumb from "@/components/breadcrumb";
 import Filter from "@/components/products/filter";
 import ProductCard from "@/components/products/product-card";
 
-export default function Products() {
+type CategoriesType = {
+  params: { categoryId: string };
+};
+
+export default function Categories({ params }: CategoriesType) {
   return (
     <div className="container w-full mt-[100px]">
-      <BreadCrumb />
+      <BreadCrumb breadcrumb={params.categoryId} />
       <div className="w-full mt-4">
         <h1 className="text-3xl font-semibold">Products</h1>
         <Filter />

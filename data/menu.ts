@@ -15,11 +15,11 @@ export const mockMenu: MenuType[] = [
   {
     id: "1",
     name: "New",
-    link: "#",
+    link: "new",
     menuDetails: [
       {
         name: "features",
-        link: "#",
+        link: "features",
         children: [
           {
             name: "air force 1",
@@ -110,11 +110,11 @@ export const mockMenu: MenuType[] = [
   {
     id: "2",
     name: "Latest",
-    link: "#",
+    link: "latest",
     menuDetails: [
       {
         name: "Shop All new features",
-        link: "#",
+        link: "latest",
         children: [
           {
             name: "second 1",
@@ -180,70 +180,7 @@ export const mockMenu: MenuType[] = [
           },
         ],
       },
-      {
-        name: "moncisk kkhhsoefe ",
-        link: "#",
-        children: [
-          {
-            name: "see3 fesf",
-            link: "#",
-          },
-          {
-            name: "sefe fsefwf",
-            link: "#",
-          },
-          {
-            name: "sefefesf",
-            link: "#",
-          },
-        ],
-      },
-      {
-        name: "gewin aElsif",
-        link: "#",
-        children: [
-          {
-            name: "saef3333 sfsef",
-            link: "#",
-          },
-          {
-            name: "sdnn brgs esf3333 sefsefefsf",
-            link: "#",
-          },
-          {
-            name: "1",
-            link: "#",
-          },
-          {
-            name: "socia 1",
-            link: "#",
-          },
-          {
-            name: "sdnn regfia",
-            link: "#",
-          },
-          {
-            name: "aee df 1",
-            link: "#",
-          },
-          {
-            name: "airse33  1",
-            link: "#",
-          },
-          {
-            name: "sdnn hla333 sefsefefsf",
-            link: "#",
-          },
-          {
-            name: "1ee ssds",
-            link: "#",
-          },
-          {
-            name: "aiwr rr 1",
-            link: "#",
-          },
-        ],
-      },
+
       {
         name: "Scripts",
         link: "#",
@@ -290,24 +227,7 @@ export const mockMenu: MenuType[] = [
           },
         ],
       },
-      {
-        name: "moncisk kuueooefe ",
-        link: "#",
-        children: [
-          {
-            name: "see3 fesf",
-            link: "#",
-          },
-          {
-            name: "sefe rerer",
-            link: "#",
-          },
-          {
-            name: "yyyyyuuu",
-            link: "#",
-          },
-        ],
-      },
+
       {
         name: "gewin aiseuif",
         link: "#",
@@ -359,11 +279,11 @@ export const mockMenu: MenuType[] = [
   {
     id: "3",
     name: "Popular",
-    link: "#",
+    link: "popular",
     menuDetails: [
       {
-        name: "really",
-        link: "#",
+        name: "Popular",
+        link: "popular",
         children: [
           {
             name: "Horans 1",
@@ -432,7 +352,7 @@ export const mockMenu: MenuType[] = [
   {
     id: "4",
     name: "Best Prices",
-    link: "#",
+    link: "bestPrices",
     menuDetails: [
       {
         name: "Shop All best prices",
