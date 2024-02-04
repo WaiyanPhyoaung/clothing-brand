@@ -4,6 +4,6 @@ type BreadCrumbProps = {
 };
 
 function BreadCrumb({ breadcrumb }: BreadCrumbProps) {
-  return <div>{breadcrumb} </div>;
+  return <div className="">{breadcrumb} </div>;
 }
 export default BreadCrumb;

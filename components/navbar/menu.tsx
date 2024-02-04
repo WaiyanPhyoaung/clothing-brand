@@ -24,6 +24,7 @@ const Menu = ({ menuData }: { menuData: MenuType[] }) => {
         {menuData.map((menu) => (
           <li
             key={menu.id}
+            // To reopen dropdown without needing to mouse-enter again - useOnMouseMoveCapture
             onMouseEnter={() => {
               setIsOpenMenuContent(true);
               setActiveMenuDetails(() => menu.menuDetails);
