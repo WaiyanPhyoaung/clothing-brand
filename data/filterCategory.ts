@@ -5,10 +5,11 @@ enum Prices {
   fiveToEight,
   aboveEight,
 }
-enum Sizes {
+export enum Sizes {
+  xs,
   s,
   m,
-  lg,
+  l,
   xl,
   twoxl,
   threexl,
@@ -52,7 +53,7 @@ export const filterCategories: FilterCategory[] = [
     options: [
       { label: "s", value: Sizes.s },
       { label: "m", value: Sizes.m },
-      { label: "lg", value: Sizes.lg },
+      { label: "lg", value: Sizes.l },
       { label: "xl", value: Sizes.xl },
       { label: "2xl", value: Sizes.twoxl },
       { label: "3xl", value: Sizes.threexl },

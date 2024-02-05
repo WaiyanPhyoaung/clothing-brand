@@ -46,7 +46,7 @@ function ProductDetailsImage({ imageLists = [] }: ProductDetailsImageProps) {
         <Image
           src={imageLists[activeImageIndex]?.src}
           alt={imageLists[activeImageIndex]?.alt}
-          className="min-h-[300px] rounded"
+          className="min-h-[300px] aspect-auto rounded"
         />
         <div className="absolute right-6 bottom-6 flex gap-2">
           <Button
