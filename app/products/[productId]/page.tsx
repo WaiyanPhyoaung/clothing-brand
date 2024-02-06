@@ -8,6 +8,8 @@ import demoImg3 from "@/public/trending3.jpg";
 import black from "@/public/products/black.avif";
 import white from "@/public/products/white.avif";
 import red from "@/public/products/red.avif";
+import RelatedProducts from "@/components/productDetails/relatedProducts";
+import { productLists } from "@/data/product";
 
 const demo = [
   { src: demoImg, alt: "demo" },
@@ -43,6 +45,10 @@ function ProductDetails({ params }: ProductDetailsType) {
           <ProductDetailsInfo colorLists={colorLists} />
         </div>
       </div>
+      <div className="my-16">
+        <RelatedProducts relatedLists={productLists} />
+      </div>
+      <div className="h-screen"></div>
     </div>
   );
 }
