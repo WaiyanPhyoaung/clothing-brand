@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import { IBM_Plex_Sans, Noto_Sans_Myanmar } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/navbar/navbar";
+import Footer from "@/components/footer/footer";
+import { footerLinks } from "@/data/footer";
 
 const ibm = IBM_Plex_Sans({
   subsets: ["latin"],
@@ -24,11 +26,13 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const { followUs, ...links } = footerLinks;
   return (
     <html lang="en">
       <body className={ibm.className}>
         <Navbar />
         <main className="">{children}</main>
+        <Footer followUs={followUs} links={links} />
       </body>
     </html>
   );

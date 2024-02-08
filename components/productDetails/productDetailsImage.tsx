@@ -28,7 +28,7 @@ function ProductDetailsImage({ imageLists = [] }: ProductDetailsImageProps) {
           <div
             key={index}
             onMouseEnter={() => setActiveImageIndex(index)}
-            className={`relative w-[50px] h-[60px] rounded overflow-hidden before:content-[''] before:absolute before:inset-0 ${
+            className={`relative w-[50px] h-[49.3px] rounded overflow-hidden before:content-[''] before:absolute before:inset-0 ${
               activeImageIndex === index
                 ? "before:bg-black/30"
                 : "before:bg-transparent"

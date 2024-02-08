@@ -8,7 +8,7 @@ import { mockMenu } from "@/data/menu";
 import Menu from "./menu";
 import { Button } from "@/components/ui/button";
 import { useState } from "react";
-import NavSearch from "./NavSearch";
+import NavSearch from "@/components/navbar/navSearch";
 import Image from "next/image";
 import nextLogo from "@/public/next.svg";
 import paths from "@/app/paths";

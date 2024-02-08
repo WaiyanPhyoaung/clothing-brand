@@ -10,6 +10,8 @@ export type ProductType = {
   colorCount: number;
   price: number;
   oldPrice?: number;
+  details?: string[];
+  additionalInformation?: string[];
 };
 export const productLists: ProductType[] = [
   {
@@ -19,6 +21,14 @@ export const productLists: ProductType[] = [
     colorCount: 5,
     price: 100000,
     oldPrice: 150000,
+    details: [
+      "Engineered mesh upper with seamless construction with multi-zoned materials for targeted support, breathability, and comfort",
+      "TPU heel counter",
+      "NITROFOAM™ Infused midsole",
+      "High abrasion non-slip rubber outsole",
+      "LaMelo Ball branding",
+      "Chinese New Year theme",
+    ],
   },
   {
     image: demoImg2,
@@ -27,6 +37,14 @@ export const productLists: ProductType[] = [
     colorCount: 5,
     price: 100000,
     oldPrice: 150000,
+    details: [
+      "Engineered mesh upper with seamless construction with multi-zoned materials for targeted support, breathability, and comfort",
+      "TPU heel counter",
+      "NITROFOAM™ Infused midsole",
+      "High abrasion non-slip rubber outsole",
+      "LaMelo Ball branding",
+      "Chinese New Year theme",
+    ],
   },
   {
     image: demoImg3,
@@ -35,6 +53,14 @@ export const productLists: ProductType[] = [
     colorCount: 5,
     price: 100000,
     oldPrice: 150000,
+    details: [
+      "Engineered mesh upper with seamless construction with multi-zoned materials for targeted support, breathability, and comfort",
+      "TPU heel counter",
+      "NITROFOAM™ Infused midsole",
+      "High abrasion non-slip rubber outsole",
+      "LaMelo Ball branding",
+      "Chinese New Year theme",
+    ],
   },
   {
     image: demoImg,
@@ -43,6 +69,14 @@ export const productLists: ProductType[] = [
     colorCount: 5,
     price: 100000,
     oldPrice: 150000,
+    details: [
+      "Engineered mesh upper with seamless construction with multi-zoned materials for targeted support, breathability, and comfort",
+      "TPU heel counter",
+      "NITROFOAM™ Infused midsole",
+      "High abrasion non-slip rubber outsole",
+      "LaMelo Ball branding",
+      "Chinese New Year theme",
+    ],
   },
   {
     image: demoImg2,
@@ -51,6 +85,14 @@ export const productLists: ProductType[] = [
     colorCount: 5,
     price: 100000,
     oldPrice: 150000,
+    details: [
+      "Engineered mesh upper with seamless construction with multi-zoned materials for targeted support, breathability, and comfort",
+      "TPU heel counter",
+      "NITROFOAM™ Infused midsole",
+      "High abrasion non-slip rubber outsole",
+      "LaMelo Ball branding",
+      "Chinese New Year theme",
+    ],
   },
   {
     image: demoImg3,
@@ -59,6 +101,14 @@ export const productLists: ProductType[] = [
     colorCount: 5,
     price: 100000,
     oldPrice: 150000,
+    details: [
+      "Engineered mesh upper with seamless construction with multi-zoned materials for targeted support, breathability, and comfort",
+      "TPU heel counter",
+      "NITROFOAM™ Infused midsole",
+      "High abrasion non-slip rubber outsole",
+      "LaMelo Ball branding",
+      "Chinese New Year theme",
+    ],
   },
   {
     image: demoImg,
@@ -67,6 +117,14 @@ export const productLists: ProductType[] = [
     colorCount: 5,
     price: 100000,
     oldPrice: 150000,
+    details: [
+      "Engineered mesh upper with seamless construction with multi-zoned materials for targeted support, breathability, and comfort",
+      "TPU heel counter",
+      "NITROFOAM™ Infused midsole",
+      "High abrasion non-slip rubber outsole",
+      "LaMelo Ball branding",
+      "Chinese New Year theme",
+    ],
   },
   {
     image: demoImg2,
@@ -75,5 +133,13 @@ export const productLists: ProductType[] = [
     colorCount: 5,
     price: 100000,
     oldPrice: 150000,
+    details: [
+      "Engineered mesh upper with seamless construction with multi-zoned materials for targeted support, breathability, and comfort",
+      "TPU heel counter",
+      "NITROFOAM™ Infused midsole",
+      "High abrasion non-slip rubber outsole",
+      "LaMelo Ball branding",
+      "Chinese New Year theme",
+    ],
   },
 ];

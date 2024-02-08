@@ -10,6 +10,8 @@ import white from "@/public/products/white.avif";
 import red from "@/public/products/red.avif";
 import RelatedProducts from "@/components/productDetails/relatedProducts";
 import { productLists } from "@/data/product";
+import ProductDetailsComponent from "@/components/productDetails/productDetailsComponent";
+import NextBreadcrumb from "@/components/breadcrumb";
 
 const demo = [
   { src: demoImg, alt: "demo" },
@@ -31,11 +33,12 @@ const colorLists = [
 type ProductDetailsType = {
   params: { productId: string };
 };
-function ProductDetails({ params }: ProductDetailsType) {
+
+function ProductDetailsPage({ params }: ProductDetailsType) {
   return (
     <div className="container">
       <div className="my-24 ">
-        <BreadCrumb breadcrumb={`Home / ${params.productId}`} />
+        <NextBreadcrumb />
       </div>
       <div className="flex justify-center items-start gap-16">
         <div className="flex-grow sticky top-16">
@@ -46,10 +49,12 @@ function ProductDetails({ params }: ProductDetailsType) {
         </div>
       </div>
       <div className="my-16">
+        <ProductDetailsComponent details={productLists[0].details || []} />
+      </div>
+      <div className="my-16">
         <RelatedProducts relatedLists={productLists} />
       </div>
-      <div className="h-screen"></div>
     </div>
   );
 }
-export default ProductDetails;
+export default ProductDetailsPage;

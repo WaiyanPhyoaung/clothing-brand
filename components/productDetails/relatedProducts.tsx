@@ -40,7 +40,11 @@ export default function RelatedProducts({ relatedLists }: RelatedProductsType) {
         }}
         spaceBetween={50}
         slidesPerView={4}
-        scrollbar={{ draggable: true, horizontalClass: styles.scrollbar }}
+        scrollbar={{
+          draggable: true,
+          horizontalClass: styles.scrollbartrack,
+          dragClass: styles.scrollbar,
+        }}
         className={["w-full mt-16 "].join(" ")}
         style={{ paddingBottom: "1.5rem" }}
       >
